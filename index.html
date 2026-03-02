@@ -5,20 +5,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <div class="h-screen">
+  <div class="h-screen bg-gray-100">
     <div>
-      <h1 class="text-center font-bold text-3xl">Workout Plan</h1>
+      <h1 class="text-center font-bold text-3xl pt-6"><i class="fa-solid fa-calendar-days"></i>Workout Plan</h1>
     </div>
-    <div class="flex justify-center items-center h-screen">
-      <div class="space-y-3 shadow-lg p-6 rounded-lg">
+    <div class="flex justify-center items-center h-screen space-x-2">
+      <a href="day_1.html">
+      <div class="space-y-3 shadow-lg p-6 rounded-lg w-[150px] h-[150px] bg-white">
+        <h1 class="font-bold text-lg"><i class="fa-light fa-dumbbell"></i>Day 1</h1>
+        <p class="text-sm">Chest - P</p>
+        <img src="img/chest.jpg" class="w-[60px] h-[40px]">
+      </div>
+      </a>
+      <div class="space-y-3 shadow-lg p-6 rounded-lg w-[150px] h-[150px] bg-white">
         <h1 class="font-bold text-lg">Day 5</h1>
         <p class="text-sm">Back Thickness</p>
         <a href="day_5.html" class="bg-blue-600 text-white font-semibold px-3 py-1 text-sm rounded-lg">Go</a>
       </div>
-      <div class="space-y-3 shadow-lg p-6 rounded-lg">
+      <div class="space-y-3 shadow-lg p-6 rounded-lg w-[150px] h-[150px] bg-white">
         <h1 class="font-bold text-lg">Day 6</h1>
         <p class="text-sm">Leg Posteriar</p>
         <a href="day_6.html" class="bg-blue-600 text-white font-semibold px-3 py-1 text-sm rounded-lg">Go</a>
